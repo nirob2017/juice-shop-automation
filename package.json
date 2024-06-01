@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:ui": "npx cypress open",
-    "test:headless": "npx cypress run"
+    "test:gui": "npx cypress open",
+    "test:headless": "npx cypress run",
+    "test:api": "npx cypress run --spec cypress/e2e/apiTests.cy.js",
+    "test:ui": "npx cypress run --spec cypress/e2e/uiTests.cy.js"
   },
   "repository": {
     "type": "git",
