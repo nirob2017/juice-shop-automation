@@ -1,0 +1,29 @@
+{
+  "name": "juice-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "npx cypress open",
+    "test:headless": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirob2017/juice-shop-automation.git"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "api",
+    "ui"
+  ],
+  "author": "Md Monsur Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirob2017/juice-shop-automation/issues"
+  },
+  "homepage": "https://github.com/nirob2017/juice-shop-automation#readme",
+  "devDependencies": {
+    "cypress": "^13.10.0"
+  }
+}
